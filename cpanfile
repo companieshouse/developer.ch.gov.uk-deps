@@ -14,7 +14,6 @@ requires 'MojoX::JSON::XS','==0.30';
 requires 'MojoX::Plugin::PODRenderer','==0.01';
 requires 'MojoX::Plugin::Statsd','==0.04';
 requires 'Text::Xslate','==3.2.0';
-# requires 'Crypt::CBC','==2.33';
 requires 'MojoX::Renderer::Xslate','==0.092';
 requires 'YAML::XS','==0.59'; # https://github.com/companieshouse/CH-MojoX-Plugin-Config/issues/2
 requires 'Crypt::Rijndael','==1.12'; # https://github.com/companieshouse/JSON-WebEncryption/issues/1
