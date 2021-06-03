@@ -5,7 +5,7 @@ requires 'Authen::SCRAM', '<1.0';
 test_requires 'Test::Mock::Mango';
 requires 'AnyEvent', '==5.29';
 requires 'MojoX::OAuth2','==0.34';
-requires 'CH::MojoX::SignIn::Plugin','==0.48';
+requires 'CH::MojoX::SignIn::Plugin','==0.51';
 requires 'CH::MojoX::UserPermissions','==0.31';
 # JSON::XS should be a dependency of MojoX::JSON::XS?
 requires 'JSON::XS', '==3.01';
@@ -35,4 +35,3 @@ requires 'MojoX::Plugin::AnyCache','==0.33';
 requires 'CH::MojoX::Administration::Plugin','==0.21';
 requires 'CH::MojoX::Plugin::Xslate','==0.05';
 requires 'Protocol::Redis::XS','==0.05';
-
