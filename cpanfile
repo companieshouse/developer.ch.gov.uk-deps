@@ -5,6 +5,7 @@ requires 'Authen::SCRAM', '<1.0';
 test_requires 'Test::Mock::Mango';
 requires 'AnyEvent', '==5.29';
 requires 'MojoX::OAuth2','==0.34';
+requires 'Crypt::CBC','==2.33';
 requires 'CH::MojoX::SignIn::Plugin','==0.51';
 requires 'CH::MojoX::UserPermissions','==0.31';
 # JSON::XS should be a dependency of MojoX::JSON::XS?
@@ -13,7 +14,7 @@ requires 'MojoX::JSON::XS','==0.30';
 requires 'MojoX::Plugin::PODRenderer','==0.01';
 requires 'MojoX::Plugin::Statsd','==0.04';
 requires 'Text::Xslate','==3.2.0';
-requires 'Crypt::CBC','==2.33';
+# requires 'Crypt::CBC','==2.33';
 requires 'MojoX::Renderer::Xslate','==0.092';
 requires 'YAML::XS','==0.59'; # https://github.com/companieshouse/CH-MojoX-Plugin-Config/issues/2
 requires 'Crypt::Rijndael','==1.12'; # https://github.com/companieshouse/JSON-WebEncryption/issues/1
