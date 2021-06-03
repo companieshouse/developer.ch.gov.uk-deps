@@ -30,6 +30,9 @@ requires 'CH::MojoX::Plugin::CORS','==0.03';
 requires 'JSON::WebEncryption','==0.06';
 requires 'MojoX::Security::Session','==0.36';
 requires 'Locale::Simple','==0.016';
+requires 'Data::MessagePack::Stream', '==1.04';
+# transient dep of Fluent::Logger which is a transient dep of Log::Log4perl::Appender::Fluent and breaks with 1.0.5
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent','==0.04';
 requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
 requires 'MojoX::Plugin::AnyCache','==0.33';
